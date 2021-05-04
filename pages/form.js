@@ -6,7 +6,12 @@ export default function FormProtocolo() {
   return (
     <>
       <Menu/>
-      <Form/>
+      <div class="d-flex">
+       
+       <Sidebar/>
+       <Form/>
+         
+     </div>
     </>
   );
 }

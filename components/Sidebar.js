@@ -3,98 +3,115 @@ const Sidebar = () => {
     <nav class="sidebar">
       <ul class="list-unstyled">
         <li>
-          <a href="/dashboard/">
+          <a href="/dashboard">
             <i class="fas fa-tachometer-alt"></i> Dashboard
           </a>
         </li>
         <li>
           <a href="#submenu1" data-toggle="collapse">
-            <i class="fas fa-user"></i> Usuário
+            <i class="fas fa-user"></i> Competições
           </a>
           <ul id="submenu1" class="list-unstyled collapse">
             <li>
               <a href="/responsaveis">
-                <i class="fas fa-users"></i> Usuários
+                <i class="fas fa-users"></i> Etapas
               </a>
             </li>
             <li>
               <a href="/responsaveis/vis-aluno">
-                <i class="fas fa-key"></i> Alunos
+                <i class="fas fa-key"></i> Campeonatos
+              </a>
+            </li>
+            <li>
+              <a href="/responsaveis/vis-aluno">
+                <i class="fas fa-key"></i> Hist. Habitualidades
+              </a>
+            </li>
+            <li>
+              <a href="/responsaveis/vis-aluno">
+                <i class="fas fa-key"></i>Lançar Habitualidades
               </a>
             </li>
           </ul>
         </li>
         <li>
+          <a href="/video/add-video"> Meus Dados</a>
+        </li>
+        <li>
+          <a href="/video/add-video"> Declarações</a>
+        </li>
+        <li>
           <a href="#submenu2" data-toggle="collapse">
-            <i class="fas fa-list-ul"></i> Home
+            <i class="fas fa-list-ul"></i> Financeiro
           </a>
           <ul id="submenu2" class="list-unstyled collapse">
             <li>
               <a href="/vis-home-top">
-                <i class="fas fa-file-alt"></i> Home - Topo
+                <i class="fas fa-file-alt"></i> Boletos
               </a>
             </li>
             <li>
               <a href="/vis-home-chamada">
-                <i class="fab fa-elementor"></i> Home - Chamada
+                <i class="fab fa-elementor"></i> Creditos
               </a>
             </li>
             <li>
               <a href="/vis-home-gallery">
-                <i class="fas fa-film"></i> Home - Gallery
+                <i class="fas fa-film"></i> Loja
               </a>
             </li>
             <li>
               <a href="/vis-home-form">
-                <i class="fas fa-film"></i> Home - Formulario
-              </a>
-            </li>
-            <li>
-              <a href="/vis-home-contagem">
-                <i class="fas fa-film"></i> Home - Contagem
-              </a>
-            </li>
-            <li>
-              <a href="/vis-home-ensino">
-                <i class="fas fa-film"></i> Home - Ensino
+                <i class="fas fa-film"></i> Movimentações
               </a>
             </li>
           </ul>
         </li>
 
         <li>
-          <a href="/video/add-video"> Video</a>
+          <a href="#submenu2" data-toggle="collapse">
+            <i class="fas fa-list-ul"></i> Secretaria
+          </a>
+          <ul id="submenu2" class="list-unstyled collapse">
+            <li>
+              <a href="/vis-home-top">
+                <i class="fas fa-file-alt"></i> Despachante
+              </a>
+            </li>
+            <li>
+              <a href="/vis-home-chamada">
+                <i class="fab fa-elementor"></i> Agendamento
+              </a>
+            </li>
+            <li>
+              <a href="/vis-home-gallery">
+                <i class="fas fa-film"></i> Loja
+              </a>
+            </li>
+            <li>
+              <a href="/vis-home-form">
+                <i class="fas fa-film"></i> Movimentações
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="/video/add-video"> Despacho de armas</a>
         </li>
         <li>
-          <a href="/sobre/vis-sobre-topo"> Sobre</a>
+          <a href="/sobre/vis-sobre-topo"> Carteira de filiação</a>
         </li>
         <li>
-          <a href="/sobre/vis-sobre-lado"> Sobre - 2 Col.</a>
+          <a href="/sobre/vis-sobre-lado"> Prestação de contas</a>
         </li>
         <li>
-          <a href="/sobre/vis-sobre-gallery"> Sobre -Gallery</a>
+          <a href="/sobre/vis-sobre-gallery"> Termos/Notificações</a>
         </li>
         <li>
-          <a href="/contato/vis-contato"> Contato</a>
+          <a href="/contato/vis-contato"> Tutoriais</a>
         </li>
-        <li>
-          <a href="/docentes/vis-docentes"> Docentes</a>
-        </li>
-        <li>
-          <a href="/cursos/vis-curso"> Curso</a>
-        </li>
-        <li>
-          <a href="/blog/visualisar-blog"> Blog</a>
-        </li>
-        <li>
-          <a href="/visualisar-msg"> Mensagens</a>
-        </li>
-        <li>
-          <a href="/visualisar-msg"> Responsaveis</a>
-        </li>
-        <li>
-          <a href="/biblioteca/admin-biblioteca"> Biblioteca</a>
-        </li>
+        
 
         <li>
           <a href="/usuario/logout">
